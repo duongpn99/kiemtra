@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.btn1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btn-1,
+.btn-2{
+    padding: 10px 10px;
+    width: 40%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c4c4c4;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: auto;
+}
+.btn-2{
+     background-color: #4438e5;
+     color: white;
+}
+.btn-1{
+    background-color: #6ba5bd;
+    color: white;
+}
+form{
+    background-color: #e7dae4;
+}
+.or{
+    text-align: center;
+    padding: 10px 10px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 4px;
+
+}
+.selec{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.pass, .password{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+div input{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 330px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #4438e5;
+    color: white;
+    margin: 10px;
+}
+.abc{
+    text-align: center;
+}
+.form-control{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
